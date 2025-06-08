@@ -8,6 +8,10 @@ backend:
    db connection =mongoose.connect(DB_CON)
    models (create json datatype in mongodb) create schema(collections) like {name:String} mongoose.Schema
    mongoose.models('tablename',schema)
-
+   controller import models =>db now created 
+   data userproduct.json =>add json data
+   pubic/images  =>add image
+   don't forgot to se await to fetch from db
+   
    
    
