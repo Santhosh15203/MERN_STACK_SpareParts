@@ -3,6 +3,7 @@ const userproductSchema=new mongoose.Schema({
     name:String,
     price:String,
     description:String,
+    ratings:String,
     images:[{
         image:String
     }],
